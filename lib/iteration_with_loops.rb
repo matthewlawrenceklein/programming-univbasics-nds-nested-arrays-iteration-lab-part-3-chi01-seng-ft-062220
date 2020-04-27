@@ -14,8 +14,8 @@ def join_nested_strings(src)
             k +=1
           end
         end
-        i +=1  
-      answer = new_str.join(" ")
-      return answer
+      i +=1  
     end
+    answer = new_str.join(" ")
+    return answer
 end
