@@ -13,8 +13,8 @@ def join_nested_strings(src)
           else
             k +=1
           end
-          i +=1
         end
+        i +=1  
       answer = new_str.join(" ")
       return answer
     end
