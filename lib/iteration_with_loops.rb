@@ -10,6 +10,7 @@ def join_nested_strings(src)
           if src[i][k].kind_of?(String)
             new_str.push(src[i][k])
             k +=1
+            binding.pry
           else
             k +=1
           end
